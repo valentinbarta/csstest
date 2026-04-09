@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My own work</title>
+    <style>
+        body {
+            background-color: #FF3737;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            align-items: center;
+            height: 95vh;
+        }
+
+        .test {
+            width: 100px;
+            border: 2px dashed #FFEDCE;
+            border-radius: 4px;
+            padding: 3px;
+            text-align: center;
+            background-color: #FFEDCE;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            color: #AE2448;
+        }
+
+        @media (max-width: 680px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="test" href="./public/aboutme.html">About Me</a>
+        <a class="test" href="./public/mycv.html">My CV</a>
+        <a class="test" href="./public/contact.html">Contact me</a>
+        <a class="test" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">Thank you!</a>
+    </div>
+</body>
+</html>
