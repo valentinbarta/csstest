@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My own work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #FF3737;
@@ -14,7 +20,6 @@
             justify-content: center;
             gap: 2rem;
             align-items: center;
-            height: 95vh;
         }
 
         .test {
@@ -24,21 +29,38 @@
             padding: 3px;
             text-align: center;
             background-color: #FFEDCE;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-decoration: none;
             color: #AE2448;
+            font-family: 'Caveat';
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Playwrite IE', cursive;
+            font-size: 100px;
+            color: antiquewhite;
         }
 
         @media (max-width: 680px) {
             .container {
-                flex-direction: column;
                 align-items: center;
                 gap: 1rem;
+                flex-wrap: wrap;
+            }
+
+            h1 {
+                font-size: 40px;
             }
         }
+
+        
     </style>
 </head>
 <body>
+    <h1>CSS TEST</h1>
     <div class="container">
         <a class="test" href="./public/aboutme.html">About Me</a>
         <a class="test" href="./public/mycv.html">My CV</a>
